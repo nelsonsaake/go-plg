@@ -14,7 +14,10 @@ var (
 	//go:embed data
 	data string
 
-	//output
+	// output file name
+	outputfile string = "output"
+
+	// output
 	output string
 )
 
@@ -29,21 +32,23 @@ func main() {
 
 	for _, v := range ls {
 
-		if str.IsInt(v) {
-			shade = v
-		} else if strings.HasPrefix(v, "#") {
+		if strings.HasPrefix(v, "#") {
 			colorCode = v
+		} else if str.IsInt(v) {
+			shade = v
+			continue
 		} else {
 			name = v
-		}
-
-		if str.IsEmpty(name) || str.IsEmpty(shade) || str.IsEmpty(colorCode) {
+			output += "\n"
 			continue
 		}
 
-		output += fmt.Sprintf("const %s%s = %s;\n", strings.ToLower(name), shade, colorCode)
+		output += fmt.Sprintf("static final Color %s%s = strToColor(\"%s\");\n", strings.ToLower(name), shade, colorCode)
 	}
 
-	err := ufs.WriteFile("colors.dart", output)
+	err := ufs.DelFile(outputfile)
+	do.Die(err)
+
+	err = ufs.WriteFile(outputfile, output)
 	do.Die(err)
 }

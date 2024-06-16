@@ -1,0 +1,19 @@
+{{define "main"}}
+
+package xlsfill
+
+var(
+	{{range  . -}}
+
+	{{.Name -}}{{- .Shade -}} = excelize.Fill{
+		Type: "gradient",
+		Color: []string{
+			"{{.Code}}",
+			"{{.Code}}",
+		},
+	}
+	
+	{{ end }}
+)
+
+{{end}}

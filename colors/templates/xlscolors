@@ -1,0 +1,11 @@
+{{define "main"}}
+
+package xlscolors
+
+const(
+	{{range  . -}}
+	{{.Name -}}{{- .Shade -}} =  "{{.Code}}"
+	{{ end -}}
+)
+
+{{end}}

@@ -1,6 +1,6 @@
 .PHONY: ncommit run get
 
-VERSION = v0.0.41
+VERSION = v0.0.46
 
 ncommit:
 	cls
@@ -10,7 +10,7 @@ ncommit:
 
 run:
 	cls
-	go run .
+	cd xls && go run .
 
 get:
 	go get github.com/nelsonsaake/go@$(VERSION)

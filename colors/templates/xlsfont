@@ -1,0 +1,18 @@
+{{define "main"}}
+
+var(
+	{{range  . -}}
+
+	{{.Name -}}{{- .Shade -}} =  &excelize.Font{
+		Color: "{{.Code}}",
+	}
+
+	{{.Name -}}{{- .Shade -}}Italic  =  &excelize.Font{
+		Color: "{{.Code}}",
+		Italic: true,
+	}
+	
+	{{end}}
+)
+
+{{end}}

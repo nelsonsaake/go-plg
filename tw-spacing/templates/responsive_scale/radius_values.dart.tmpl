@@ -4,6 +4,7 @@ part of 'radius.dart';
 
 {{range  . -}}
 
+// r{{.Name}} => radius = {{.Px}}px 
 Radius r{{.Name }}() => r({{.Px}});
 
 {{ end -}} 

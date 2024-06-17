@@ -1,0 +1,17 @@
+{{define "main"}}
+
+import "package:flutter/material.dart";
+
+{{range  . -}}
+
+final Color {{.Name -}}{{- .Shade -}} = toColor("{{.Code}}");
+	
+{{ end }}
+
+Color toColor(String str) {
+	String code = str.replaceAll("#", "0xFF");
+	int intCode = int.tryParse(code) ?? 0;
+	return Color(intCode);
+}
+
+{{end}}

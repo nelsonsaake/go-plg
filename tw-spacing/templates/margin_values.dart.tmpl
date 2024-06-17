@@ -1,0 +1,23 @@
+{{define "main" -}}
+
+part of 'margin.dart';
+
+{{range  . -}}
+
+EdgeInsetsMargin m{{.Name }}() => m({{.Px}});
+
+EdgeInsetsMargin mx{{.Name }}() => mx({{.Px}});
+
+EdgeInsetsMargin my{{.Name }}() => my({{.Px}});
+
+EdgeInsetsMargin mt{{.Name }}() => mt({{.Px}});
+
+EdgeInsetsMargin mb{{.Name }}() => mb({{.Px}});
+
+EdgeInsetsMargin ml{{.Name }}() => ml({{.Px}});
+
+EdgeInsetsMargin mr{{.Name }}() => mt({{.Px}});
+
+{{ end -}} 
+
+{{end}}

@@ -1,0 +1,11 @@
+{{define "main" -}}
+
+part of 'border_radius.dart';
+
+{{range  . -}}
+
+BorderRadius rounded{{.Name }}() => rounded({{.Px}});
+
+{{ end -}} 
+
+{{end}}

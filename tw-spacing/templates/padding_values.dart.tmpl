@@ -1,0 +1,23 @@
+{{define "main" -}}
+
+part of 'padding.dart';
+
+{{range  . -}}
+
+EdgeInsetsPadding p{{.Name }}() => p({{.Px}});
+
+EdgeInsetsPadding px{{.Name }}() => px({{.Px}});
+
+EdgeInsetsPadding py{{.Name }}() => py({{.Px}});
+
+EdgeInsetsPadding pt{{.Name }}() => pt({{.Px}});
+
+EdgeInsetsPadding pb{{.Name }}() => pb({{.Px}});
+
+EdgeInsetsPadding pl{{.Name }}() => pl({{.Px}});
+
+EdgeInsetsPadding pr{{.Name }}() => pt({{.Px}});
+
+{{ end -}} 
+
+{{end}}

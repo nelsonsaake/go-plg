@@ -1,0 +1,11 @@
+{{define "main" -}}
+
+part of 'radius.dart';
+
+{{range  . -}}
+
+Radius r{{.Name }}() => r({{.Px}});
+
+{{ end -}} 
+
+{{end}}

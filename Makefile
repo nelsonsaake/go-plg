@@ -11,6 +11,10 @@ ncommit:
 run:
 	cls
 	cd tw-spacing && go run .
+	cls
+	git add .
+	git commit -m "ncommit"
+	git push origin main 
 
 get:
 	go get github.com/nelsonsaake/go@$(VERSION)

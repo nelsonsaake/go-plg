@@ -59,7 +59,7 @@ func main() {
 		colors = append(colors, Color{Name: name, Shade: shade, Code: colorCode})
 	}
 
-	output, err := render.Main("xlscolors", colors)
+	output, err := render.Main("templates/text_colors.dart", colors)
 	do.Die(err)
 
 	err = ufs.DelFile(outputfile)

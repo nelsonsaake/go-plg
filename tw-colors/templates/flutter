@@ -1,17 +1,11 @@
-{{define "main"}}
+{{- define "main" -}}
 
 import "package:flutter/material.dart";
 
 {{range  . -}}
 
-final Color {{.Name -}}{{- .Shade -}} = toColor("{{.Code}}");
+const kc{{.Name -}}{{- .Shade }} = Color({{ ReplaceAll .Code "#" "0xFF" | ToUpper}});
 	
 {{ end }}
-
-Color toColor(String str) {
-	String code = str.replaceAll("#", "0xFF");
-	int intCode = int.tryParse(code) ?? 0;
-	return Color(intCode);
-}
 
 {{end}}

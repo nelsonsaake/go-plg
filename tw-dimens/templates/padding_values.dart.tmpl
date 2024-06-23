@@ -4,25 +4,25 @@ part of 'padding.dart';
 
 {{range  . -}}
 
-// kp{{.Name}} => padding = {{.Px}}px 
+/// kp{{.Name}} => padding = {{.Px}}px 
 EdgeInsetsPadding kp{{.Name }} = p({{.Px}});
 
-// kpx{{.Name}} => padding left, right = {{.Px}}px 
+/// kpx{{.Name}} => padding left, right = {{.Px}}px 
 EdgeInsetsPadding kpx{{.Name }} = px({{.Px}});
 
-// kpy{{.Name}} => padding top, bottom = {{.Px}}px 
+/// kpy{{.Name}} => padding top, bottom = {{.Px}}px 
 EdgeInsetsPadding kpy{{.Name }} = py({{.Px}});
 
-// kpt{{.Name}} => padding top = {{.Px}}px 
+/// kpt{{.Name}} => padding top = {{.Px}}px 
 EdgeInsetsPadding kpt{{.Name }} = pt({{.Px}});
 
-// kpb{{.Name}} => padding bottom = {{.Px}}px 
+/// kpb{{.Name}} => padding bottom = {{.Px}}px 
 EdgeInsetsPadding kpb{{.Name }} = pb({{.Px}});
 
-// kpl{{.Name}} => padding left = {{.Px}}px 
+/// kpl{{.Name}} => padding left = {{.Px}}px 
 EdgeInsetsPadding kpl{{.Name }} = pl({{.Px}});
 
-// kpr{{.Name}} => padding right = {{.Px}}px 
+/// kpr{{.Name}} => padding right = {{.Px}}px 
 EdgeInsetsPadding kpr{{.Name }} = pt({{.Px}});
 
 {{ end -}} 

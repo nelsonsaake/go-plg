@@ -4,13 +4,13 @@ part of "size.dart";
 
 {{range  . -}}
 
-// ks{{.Name}} => square with both sides = {{.Px}}
+/// ks{{.Name}} => square with both sides = {{.Px}}
 final Size ks{{.Name }} = ss({{.Px}});
 
-// ksh{{.Name}} => infinite width, height = {{.Px}}
+/// ksh{{.Name}} => infinite width, height = {{.Px}}
 final Size ksh{{.Name }} = sh({{.Px}});
 
-// ksh{{.Name}} => infinite height, width = {{.Px}}
+/// ksh{{.Name}} => infinite height, width = {{.Px}}
 final Size ksw{{.Name }} = sw({{.Px}});
 
 {{ end -}} 

@@ -4,7 +4,7 @@ part of 'border_radius.dart';
 
 {{range  . -}}
 
-// kbr{{.Name}} => border radius = {{.Px}}px 
+/// kbr{{.Name}} => border radius = {{.Px}}px 
 final BorderRadius kbr{{.Name }} = br({{.Px}});
 
 {{ end -}} 

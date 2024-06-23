@@ -18,7 +18,7 @@ extension TextFontWeightExt on Text {
   
   {{range  . -}}
 
-  // fw{{ .Name | Capitalize }} => font size = {{.Value}}
+  /// fw{{ .Name | Capitalize }} => font size = {{.Value}}
   Text fw{{ .Name | Capitalize }}() => fw(FontWeight.w{{.Value}});
 
   {{ end -}} 

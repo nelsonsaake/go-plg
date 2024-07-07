@@ -1,0 +1,10 @@
+{{define "main" -}}
+
+{{range  . -}}
+
+/// kfs{{.Name}} => font size = {{.Px}}px 
+const double kfs{{.Name }} = {{.Px}};
+
+{{ end -}} 
+
+{{end}}

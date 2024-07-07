@@ -1,0 +1,33 @@
+{{define "main" -}}
+
+import 'package:commons/ui/text.dart';
+import 'package:flutter/material.dart';
+
+extension TextFontFamilyExt on Text {
+  ///...
+
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  Text ff(String s) {
+    return copyWith(
+      style: style.copyWith(fontFamily: s),
+    );
+  }
+  
+  Text gff(String s) {
+    return copyWith(
+      style: style.copyWith(fontFamily: GoogleFonts.getFont(s).fontFamily),
+    );
+  }
+
+  {{range  . -}}
+
+  /// ff{.Name}} => font family = {{.Value}}
+  Text ff{{ .Name }}() => gff("{{.Value}}");
+
+  {{ end -}} 
+
+}
+{{end}}

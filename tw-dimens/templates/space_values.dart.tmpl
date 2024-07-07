@@ -1,0 +1,16 @@
+{{define "main" -}}
+
+part of 'space.dart';
+
+{{range  . -}}
+
+/// Space{{.Name}} => space = {{.Px}}px 
+class Space{{.Name }} extends Space {
+	const Space{{.Name -}}({super.key}) : super({{.Px}});
+	const Space{{.Name -}}.x({super.key}) : super.x({{.Px}});
+	const Space{{.Name -}}.y({super.key}) : super.y({{.Px}});
+}
+
+{{ end -}} 
+
+{{end}}

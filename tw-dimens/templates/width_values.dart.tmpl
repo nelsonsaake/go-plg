@@ -1,0 +1,10 @@
+{{define "main" -}}
+
+{{range  . -}}
+
+/// kw{{.Name}} => width = {{.Px}}px 
+const double kw{{.Name }} = {{.Px}};
+
+{{ end -}} 
+
+{{end}}

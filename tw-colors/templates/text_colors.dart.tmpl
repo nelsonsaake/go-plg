@@ -1,0 +1,34 @@
+{{ define "main" -}}
+
+import 'package:devpanel/ui/common/text.dart';
+import 'package:flutter/material.dart';
+
+extension TextColorExt on Text {
+  //...
+  
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  Text color(c) {
+    Color? cc = style.color;
+
+    if (c is Color || c is Color?) {
+      cc = c;
+    } else if (c is int) {
+      cc = Color(c);
+    }
+
+    return copyWith(
+      style: style.copyWith(color: cc),
+    );
+  }
+
+  {{range  . -}}
+
+  Text fc{{ .Name -}}{{- .Shade }}() => color(const Color({{ ReplaceAll .Code "#" "0xFF" | ToUpper}}));
+    
+  {{ end }}
+}
+
+{{ end }}

@@ -1,0 +1,27 @@
+{{ define "main" -}}
+
+import 'package:devpanel/ui/common/text_utils.dart';
+import 'package:flutter/material.dart';
+
+extension TextFontWeightExt on Text {
+  //...
+
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  Text fw(FontWeight fw) {
+    return copyWith(
+      style: style.copyWith(fontWeight: fw),
+    );
+  }
+  
+  {{range  . -}}
+
+  /// fw{{ .Name | Capitalize }} => font size = {{.Value}}
+  Text fw{{ .Name | Capitalize }}() => fw(FontWeight.w{{.Value}});
+
+  {{ end -}} 
+}
+
+{{- end }}

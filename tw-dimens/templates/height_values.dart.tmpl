@@ -1,0 +1,10 @@
+{{define "main" -}}
+
+{{range  . -}}
+
+/// kh{{.Name}} => height = {{.Px}}px 
+const double kh{{.Name }} = {{.Px}};
+
+{{ end -}} 
+
+{{end}}

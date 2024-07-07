@@ -1,0 +1,30 @@
+{{define "main" -}}
+
+part of 'margin.dart';
+
+{{range  . -}}
+
+/// m{{.Name}} => margin = {{.Px}}px 
+EdgeInsetsMargin m{{.Name }}() => m({{.Px}});
+
+/// mx{{.Name}} => margin left, right = {{.Px}}px 
+EdgeInsetsMargin mx{{.Name }}() => mx({{.Px}});
+
+/// my{{.Name}} => margin top, right = {{.Px}}px 
+EdgeInsetsMargin my{{.Name }}() => my({{.Px}});
+
+/// mt{{.Name}} => margin top = {{.Px}}px 
+EdgeInsetsMargin mt{{.Name }}() => mt({{.Px}});
+
+/// mb{{.Name}} => margin bottom = {{.Px}}px 
+EdgeInsetsMargin mb{{.Name }}() => mb({{.Px}});
+
+/// ml{{.Name}} => margin left = {{.Px}}px 
+EdgeInsetsMargin ml{{.Name }}() => ml({{.Px}});
+
+/// mr{{.Name}} => margin right = {{.Px}}px 
+EdgeInsetsMargin mr{{.Name }}() => mr({{.Px}});
+
+{{ end -}} 
+
+{{end}}

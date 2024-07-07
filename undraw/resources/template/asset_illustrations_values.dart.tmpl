@@ -1,0 +1,10 @@
+{{ define "main" -}}
+
+{{- range . -}}
+
+/// undraw illustration {{.Value}}
+const kai{{.Name}} = "assets/undraw/{{.Value}}";
+
+{{ end }}
+
+{{ end }}

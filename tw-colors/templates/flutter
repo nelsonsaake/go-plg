@@ -1,0 +1,12 @@
+{{- define "main" -}}
+
+import "package:flutter/material.dart";
+
+{{range  . -}}
+
+/// {{.Name -}}{{- .Shade }} = #{{.Code}}
+const kc{{.Name -}}{{- .Shade }} = Color({{ ReplaceAll .Code "#" "0xFF" | ToUpper}});
+	
+{{ end }}
+
+{{end}}

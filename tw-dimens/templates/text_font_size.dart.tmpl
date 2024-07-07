@@ -1,0 +1,27 @@
+{{define "main" -}}
+
+import 'package:devpanel/ui/common/text.dart';
+import 'package:flutter/material.dart';
+
+extension TextFontSizeExt on Text {
+  ///...
+
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  Text fs(double? s) {
+    return copyWith(
+      style: style.copyWith(fontSize: s),
+    );
+  }
+
+  {{range  . -}}
+
+  /// fs{{.Name}} => font size = {{.Px}}
+  Text fs{{ .Name }}() => fs({{.Px}});
+
+  {{ end -}} 
+
+}
+{{end}}

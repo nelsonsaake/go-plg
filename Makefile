@@ -1,6 +1,6 @@
 .PHONY: ncommit run get dep run-dep
 
-VERSION = v0.0.51
+VERSION = v0.0.52
 
 ncommit:
 	cls
@@ -10,7 +10,7 @@ ncommit:
 
 run:	
 	cls
-	cd font-family && go run .
+	cd semper-server-patch && go run .
 
 dep:
 	cls

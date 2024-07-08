@@ -67,6 +67,8 @@ github.com/nelsonsaake/go v0.0.50 h1:okX25Am86k2bKXhv92TGctLqWCDxoE0hXvbd75+DCvs
 github.com/nelsonsaake/go v0.0.50/go.mod h1:GCfDRj2irLXvcA/NZe4J+XBphD0ZmOy/k7wLVTPVUe0=
 github.com/nelsonsaake/go v0.0.51 h1:Eb2bUtPmvrG9yclQQUrLVA4V9ECArl9ihvQFZXhT3PU=
 github.com/nelsonsaake/go v0.0.51/go.mod h1:GCfDRj2irLXvcA/NZe4J+XBphD0ZmOy/k7wLVTPVUe0=
+github.com/nelsonsaake/go v0.0.52 h1:97RTeK76c3dWT7CE3/juC9S/yx3bt7nZX2/xuUW+HWA=
+github.com/nelsonsaake/go v0.0.52/go.mod h1:GCfDRj2irLXvcA/NZe4J+XBphD0ZmOy/k7wLVTPVUe0=
 github.com/pelletier/go-toml/v2 v2.2.2 h1:aYUidT7k73Pcl9nb2gScu7NSrKCSHIDE89b3+6Wq+LM=
 github.com/pelletier/go-toml/v2 v2.2.2/go.mod h1:1t835xjRzz80PqgE6HHgN2JOsmgYu/h4qDAS4n929Rs=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

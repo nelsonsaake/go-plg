@@ -1,7 +1,6 @@
 .PHONY: ncommit run get dep run-dep
 
-VERSION = v0.0.52
-
+VERSION = v0.0.58
 ncommit:
 	cls
 	git add .
@@ -10,7 +9,7 @@ ncommit:
 
 run:	
 	cls
-	cd semper-server-patch && go run .
+	cd ws-files && go run .
 
 dep:
 	cls

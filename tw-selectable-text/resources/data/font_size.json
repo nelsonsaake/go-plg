@@ -1,12 +1,12 @@
 [
   {
-    "name": "xs",
+    "name": "XS",
     "fontSize": "12",
     "lineHeight": "16",
     "lineHeightRatio": "1"
   },
   {
-    "name": "sm",
+    "name": "SM",
     "fontSize": "14",
     "lineHeight": "20",
     "lineHeightRatio": "1.25"
@@ -18,61 +18,61 @@
     "lineHeightRatio": "1.5"
   },
   {
-    "name": "lg",
+    "name": "LG",
     "fontSize": "18",
     "lineHeight": "28",
     "lineHeightRatio": "1.75"
   },
   {
-    "name": "xl",
+    "name": "XL",
     "fontSize": "20",
     "lineHeight": "28",
     "lineHeightRatio": "1.75"
   },
   {
-    "name": "2xl",
+    "name": "2XL",
     "fontSize": "24",
     "lineHeight": "32",
     "lineHeightRatio": "2"
   },
   {
-    "name": "3xl",
+    "name": "3XL",
     "fontSize": "30",
     "lineHeight": "36",
     "lineHeightRatio": "2.25"
   },
   {
-    "name": "4xl",
+    "name": "4XL",
     "fontSize": "36",
     "lineHeight": "40",
     "lineHeightRatio": "2.5"
   },
   {
-    "name": "5xl",
+    "name": "5XL",
     "fontSize": "48",
     "lineHeight": "16",
     "lineHeightRatio": "1"
   },
   {
-    "name": "6xl",
+    "name": "6XL",
     "fontSize": "60",
     "lineHeight": "16",
     "lineHeightRatio": "1"
   },
   {
-    "name": "7xl",
+    "name": "7XL",
     "fontSize": "72",
     "lineHeight": "16",
     "lineHeightRatio": "1"
   },
   {
-    "name": "8xl",
+    "name": "8XL",
     "fontSize": "96",
     "lineHeight": "16",
     "lineHeightRatio": "1"
   },
   {
-    "name": "9xl",
+    "name": "9XL",
     "fontSize": "128",
     "lineHeight": "16",
     "lineHeightRatio": "1"

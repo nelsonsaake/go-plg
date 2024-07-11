@@ -9,7 +9,7 @@ ncommit:
 
 run:	
 	cls
-	cd ws-files && go run .
+	cd tw-selectable-text && go run .
 
 dep:
 	cls

@@ -1,0 +1,28 @@
+{{define "main" -}}
+
+import 'package:commons/ui/selectable_text_utils.dart';
+import 'package:flutter/material.dart';
+
+extension SelectableTextFontSizeExt on SelectableText {
+  ///...
+
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  /// set fontSize to s, and lineHeight to lh
+  SelectableText fs(double? s, {double? lh}) {
+    return copyWith(
+      style: style.copyWith(fontSize: s, height: lh),
+    );
+  }
+
+  {{range  . -}}
+
+  /// set font size to {{.FontSize}}px, and lineHeight to {{.LineHeightRatio}}
+  SelectableText fs{{ .Name }}() => fs({{.FontSize}}, lh: {{.LineHeightRatio}});
+
+  {{ end -}} 
+
+}
+{{end}}

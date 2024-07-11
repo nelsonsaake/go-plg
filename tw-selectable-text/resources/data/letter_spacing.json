@@ -1,0 +1,8 @@
+[
+  { "name": "tighter", "value": "-0.8" },
+  { "name": "tight", "value": "-0.4" },
+  { "name": "normal", "value": "0" },
+  { "name": "wide", "value": "0.4" },
+  { "name": "wider", "value": "0.8" },
+  { "name": "widest", "value": "1.6" }
+]

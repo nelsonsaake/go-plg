@@ -1,0 +1,35 @@
+{{define "main" -}}
+
+import 'package:commons/ui/selectable_text_utils.dart';
+import 'package:flutter/material.dart';
+
+extension TextFontFamilyExt on SelectableText {
+  ///...
+
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  /// set fontFamily to ff
+  SelectableText ff(String ff) {
+    return copyWith(
+      style: style.copyWith(fontFamily: ff),
+    );
+  }
+  
+  /// set fontFamily to ff from google_fonts font library
+  SelectableText gff(String ff) {
+    return copyWith(
+      style: style.copyWith(fontFamily: GoogleFonts.getFont(ff).fontFamily),
+    );
+  }
+
+  {{range  . -}}
+
+  /// set fontFamily to {{.Value}}
+  SelectableText ff{{ .Name }}() => gff("{{.Value}}");
+
+  {{ end -}} 
+
+}
+{{end}}

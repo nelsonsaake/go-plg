@@ -2,10 +2,10 @@ package main
 
 import (
 	_ "embed"
-	"go-plg/render"
 	"strings"
 
 	"github.com/nelsonsaake/go/do"
+	"github.com/nelsonsaake/go/pretty"
 	"github.com/nelsonsaake/go/str"
 	"github.com/nelsonsaake/go/ufs"
 )
@@ -59,12 +59,15 @@ func main() {
 		colors = append(colors, Color{Name: name, Shade: shade, Code: colorCode})
 	}
 
-	output, err := render.Template("templates/text_colors.dart", colors)
-	do.Die(err)
+	// output, err := render.Template("templates/text_colors.dart", colors)
+	// do.Die(err)
 
-	err = ufs.DelFile(outputfile)
-	do.Die(err)
+	// err = ufs.DelFile(outputfile)
+	// do.Die(err)
 
-	err = ufs.WriteFile(outputfile, output)
+	// err = ufs.WriteFile(outputfile, output)
+	// do.Die(err)
+
+	err := ufs.WriteFile("tw_colors.json", pretty.JSON(colors))
 	do.Die(err)
 }

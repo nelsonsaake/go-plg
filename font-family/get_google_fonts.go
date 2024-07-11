@@ -17,7 +17,9 @@ func getGoogleFonts() ([]string, error) {
 		return nil, err
 	}
 
-	res, err := axios.New().Get(url)
+	client := axios.Client{}
+
+	res, err := client.Get(url)
 	if err != nil {
 		return die(err)
 	}

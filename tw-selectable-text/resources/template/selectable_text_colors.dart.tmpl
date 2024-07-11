@@ -1,0 +1,36 @@
+{{ define "main" -}}
+
+import 'package:commons/ui/selectable_text_utils.dart';
+import 'package:flutter/material.dart';
+
+extension SelectableTextColorExt on SelectableText {
+  //...
+  
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  /// set font color to c
+  SelectableText color(c) {
+    Color? cc = style.color;
+
+    if (c is Color || c is Color?) {
+      cc = c;
+    } else if (c is int) {
+      cc = Color(c);
+    }
+
+    return copyWith(
+      style: style.copyWith(color: cc),
+    );
+  }
+
+  {{range  . -}}
+
+  /// set font color to {{.Code}}
+  SelectableText fc{{ .Name -}}{{- .Shade }}() => color(const Color({{ ReplaceAll .Code "#" "0xFF" | ToUpper}}));
+    
+  {{ end }}
+}
+
+{{ end }}

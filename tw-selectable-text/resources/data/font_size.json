@@ -1,0 +1,80 @@
+[
+  {
+    "name": "xs",
+    "fontSize": "12",
+    "lineHeight": "16",
+    "lineHeightRatio": "1"
+  },
+  {
+    "name": "sm",
+    "fontSize": "14",
+    "lineHeight": "20",
+    "lineHeightRatio": "1.25"
+  },
+  {
+    "name": "base",
+    "fontSize": "16",
+    "lineHeight": "24",
+    "lineHeightRatio": "1.5"
+  },
+  {
+    "name": "lg",
+    "fontSize": "18",
+    "lineHeight": "28",
+    "lineHeightRatio": "1.75"
+  },
+  {
+    "name": "xl",
+    "fontSize": "20",
+    "lineHeight": "28",
+    "lineHeightRatio": "1.75"
+  },
+  {
+    "name": "2xl",
+    "fontSize": "24",
+    "lineHeight": "32",
+    "lineHeightRatio": "2"
+  },
+  {
+    "name": "3xl",
+    "fontSize": "30",
+    "lineHeight": "36",
+    "lineHeightRatio": "2.25"
+  },
+  {
+    "name": "4xl",
+    "fontSize": "36",
+    "lineHeight": "40",
+    "lineHeightRatio": "2.5"
+  },
+  {
+    "name": "5xl",
+    "fontSize": "48",
+    "lineHeight": "16",
+    "lineHeightRatio": "1"
+  },
+  {
+    "name": "6xl",
+    "fontSize": "60",
+    "lineHeight": "16",
+    "lineHeightRatio": "1"
+  },
+  {
+    "name": "7xl",
+    "fontSize": "72",
+    "lineHeight": "16",
+    "lineHeightRatio": "1"
+  },
+  {
+    "name": "8xl",
+    "fontSize": "96",
+    "lineHeight": "16",
+    "lineHeightRatio": "1"
+  },
+  {
+    "name": "9xl",
+    "fontSize": "128",
+    "lineHeight": "16",
+    "lineHeightRatio": "1"
+  }
+]

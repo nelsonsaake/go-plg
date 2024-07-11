@@ -1,0 +1,28 @@
+{{ define "main" -}}
+
+import 'package:commons/ui/selectable_text_utils.dart';
+import 'package:flutter/material.dart';
+
+extension SelectableTextFontWeightExt on SelectableText {
+  //...
+
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  /// set font weight to fw
+  SelectableText fw(FontWeight fw) {
+    return copyWith(
+      style: style.copyWith(fontWeight: fw),
+    );
+  }
+  
+  {{range  . -}}
+
+  /// set font weight to {{.Value}}
+  SelectableText fw{{ .Name | Capitalize }}() => fw(FontWeight.w{{.Value}});
+
+  {{ end -}} 
+}
+
+{{- end }}

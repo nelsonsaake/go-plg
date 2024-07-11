@@ -1,0 +1,1212 @@
+[
+  {
+    "name": "Slate",
+    "shade": "50",
+    "code": "#f8fafc"
+  },
+  {
+    "name": "Slate",
+    "shade": "100",
+    "code": "#f1f5f9"
+  },
+  {
+    "name": "Slate",
+    "shade": "200",
+    "code": "#e2e8f0"
+  },
+  {
+    "name": "Slate",
+    "shade": "300",
+    "code": "#cbd5e1"
+  },
+  {
+    "name": "Slate",
+    "shade": "400",
+    "code": "#94a3b8"
+  },
+  {
+    "name": "Slate",
+    "shade": "500",
+    "code": "#64748b"
+  },
+  {
+    "name": "Slate",
+    "shade": "600",
+    "code": "#475569"
+  },
+  {
+    "name": "Slate",
+    "shade": "700",
+    "code": "#334155"
+  },
+  {
+    "name": "Slate",
+    "shade": "800",
+    "code": "#1e293b"
+  },
+  {
+    "name": "Slate",
+    "shade": "900",
+    "code": "#0f172a"
+  },
+  {
+    "name": "Slate",
+    "shade": "950",
+    "code": "#020617"
+  },
+  {
+    "name": "Gray",
+    "shade": "50",
+    "code": "#f9fafb"
+  },
+  {
+    "name": "Gray",
+    "shade": "100",
+    "code": "#f3f4f6"
+  },
+  {
+    "name": "Gray",
+    "shade": "200",
+    "code": "#e5e7eb"
+  },
+  {
+    "name": "Gray",
+    "shade": "300",
+    "code": "#d1d5db"
+  },
+  {
+    "name": "Gray",
+    "shade": "400",
+    "code": "#9ca3af"
+  },
+  {
+    "name": "Gray",
+    "shade": "500",
+    "code": "#6b7280"
+  },
+  {
+    "name": "Gray",
+    "shade": "600",
+    "code": "#4b5563"
+  },
+  {
+    "name": "Gray",
+    "shade": "700",
+    "code": "#374151"
+  },
+  {
+    "name": "Gray",
+    "shade": "800",
+    "code": "#1f2937"
+  },
+  {
+    "name": "Gray",
+    "shade": "900",
+    "code": "#111827"
+  },
+  {
+    "name": "Gray",
+    "shade": "950",
+    "code": "#030712"
+  },
+  {
+    "name": "Zinc",
+    "shade": "50",
+    "code": "#fafafa"
+  },
+  {
+    "name": "Zinc",
+    "shade": "100",
+    "code": "#f4f4f5"
+  },
+  {
+    "name": "Zinc",
+    "shade": "200",
+    "code": "#e4e4e7"
+  },
+  {
+    "name": "Zinc",
+    "shade": "300",
+    "code": "#d4d4d8"
+  },
+  {
+    "name": "Zinc",
+    "shade": "400",
+    "code": "#a1a1aa"
+  },
+  {
+    "name": "Zinc",
+    "shade": "500",
+    "code": "#71717a"
+  },
+  {
+    "name": "Zinc",
+    "shade": "600",
+    "code": "#52525b"
+  },
+  {
+    "name": "Zinc",
+    "shade": "700",
+    "code": "#3f3f46"
+  },
+  {
+    "name": "Zinc",
+    "shade": "800",
+    "code": "#27272a"
+  },
+  {
+    "name": "Zinc",
+    "shade": "900",
+    "code": "#18181b"
+  },
+  {
+    "name": "Zinc",
+    "shade": "950",
+    "code": "#09090b"
+  },
+  {
+    "name": "Neutral",
+    "shade": "50",
+    "code": "#fafafa"
+  },
+  {
+    "name": "Neutral",
+    "shade": "100",
+    "code": "#f5f5f5"
+  },
+  {
+    "name": "Neutral",
+    "shade": "200",
+    "code": "#e5e5e5"
+  },
+  {
+    "name": "Neutral",
+    "shade": "300",
+    "code": "#d4d4d4"
+  },
+  {
+    "name": "Neutral",
+    "shade": "400",
+    "code": "#a3a3a3"
+  },
+  {
+    "name": "Neutral",
+    "shade": "500",
+    "code": "#737373"
+  },
+  {
+    "name": "Neutral",
+    "shade": "600",
+    "code": "#525252"
+  },
+  {
+    "name": "Neutral",
+    "shade": "700",
+    "code": "#404040"
+  },
+  {
+    "name": "Neutral",
+    "shade": "800",
+    "code": "#262626"
+  },
+  {
+    "name": "Neutral",
+    "shade": "900",
+    "code": "#171717"
+  },
+  {
+    "name": "Neutral",
+    "shade": "950",
+    "code": "#0a0a0a"
+  },
+  {
+    "name": "Stone",
+    "shade": "50",
+    "code": "#fafaf9"
+  },
+  {
+    "name": "Stone",
+    "shade": "100",
+    "code": "#f5f5f4"
+  },
+  {
+    "name": "Stone",
+    "shade": "200",
+    "code": "#e7e5e4"
+  },
+  {
+    "name": "Stone",
+    "shade": "300",
+    "code": "#d6d3d1"
+  },
+  {
+    "name": "Stone",
+    "shade": "400",
+    "code": "#a8a29e"
+  },
+  {
+    "name": "Stone",
+    "shade": "500",
+    "code": "#78716c"
+  },
+  {
+    "name": "Stone",
+    "shade": "600",
+    "code": "#57534e"
+  },
+  {
+    "name": "Stone",
+    "shade": "700",
+    "code": "#44403c"
+  },
+  {
+    "name": "Stone",
+    "shade": "800",
+    "code": "#292524"
+  },
+  {
+    "name": "Stone",
+    "shade": "900",
+    "code": "#1c1917"
+  },
+  {
+    "name": "Stone",
+    "shade": "950",
+    "code": "#0c0a09"
+  },
+  {
+    "name": "Red",
+    "shade": "50",
+    "code": "#fef2f2"
+  },
+  {
+    "name": "Red",
+    "shade": "100",
+    "code": "#fee2e2"
+  },
+  {
+    "name": "Red",
+    "shade": "200",
+    "code": "#fecaca"
+  },
+  {
+    "name": "Red",
+    "shade": "300",
+    "code": "#fca5a5"
+  },
+  {
+    "name": "Red",
+    "shade": "400",
+    "code": "#f87171"
+  },
+  {
+    "name": "Red",
+    "shade": "500",
+    "code": "#ef4444"
+  },
+  {
+    "name": "Red",
+    "shade": "600",
+    "code": "#dc2626"
+  },
+  {
+    "name": "Red",
+    "shade": "700",
+    "code": "#b91c1c"
+  },
+  {
+    "name": "Red",
+    "shade": "800",
+    "code": "#991b1b"
+  },
+  {
+    "name": "Red",
+    "shade": "900",
+    "code": "#7f1d1d"
+  },
+  {
+    "name": "Red",
+    "shade": "950",
+    "code": "#450a0a"
+  },
+  {
+    "name": "Orange",
+    "shade": "50",
+    "code": "#fff7ed"
+  },
+  {
+    "name": "Orange",
+    "shade": "100",
+    "code": "#ffedd5"
+  },
+  {
+    "name": "Orange",
+    "shade": "200",
+    "code": "#fed7aa"
+  },
+  {
+    "name": "Orange",
+    "shade": "300",
+    "code": "#fdba74"
+  },
+  {
+    "name": "Orange",
+    "shade": "400",
+    "code": "#fb923c"
+  },
+  {
+    "name": "Orange",
+    "shade": "500",
+    "code": "#f97316"
+  },
+  {
+    "name": "Orange",
+    "shade": "600",
+    "code": "#ea580c"
+  },
+  {
+    "name": "Orange",
+    "shade": "700",
+    "code": "#c2410c"
+  },
+  {
+    "name": "Orange",
+    "shade": "800",
+    "code": "#9a3412"
+  },
+  {
+    "name": "Orange",
+    "shade": "900",
+    "code": "#7c2d12"
+  },
+  {
+    "name": "Orange",
+    "shade": "950",
+    "code": "#431407"
+  },
+  {
+    "name": "Amber",
+    "shade": "50",
+    "code": "#fffbeb"
+  },
+  {
+    "name": "Amber",
+    "shade": "100",
+    "code": "#fef3c7"
+  },
+  {
+    "name": "Amber",
+    "shade": "200",
+    "code": "#fde68a"
+  },
+  {
+    "name": "Amber",
+    "shade": "300",
+    "code": "#fcd34d"
+  },
+  {
+    "name": "Amber",
+    "shade": "400",
+    "code": "#fbbf24"
+  },
+  {
+    "name": "Amber",
+    "shade": "500",
+    "code": "#f59e0b"
+  },
+  {
+    "name": "Amber",
+    "shade": "600",
+    "code": "#d97706"
+  },
+  {
+    "name": "Amber",
+    "shade": "700",
+    "code": "#b45309"
+  },
+  {
+    "name": "Amber",
+    "shade": "800",
+    "code": "#92400e"
+  },
+  {
+    "name": "Amber",
+    "shade": "900",
+    "code": "#78350f"
+  },
+  {
+    "name": "Amber",
+    "shade": "950",
+    "code": "#451a03"
+  },
+  {
+    "name": "Yellow",
+    "shade": "50",
+    "code": "#fefce8"
+  },
+  {
+    "name": "Yellow",
+    "shade": "100",
+    "code": "#fef9c3"
+  },
+  {
+    "name": "Yellow",
+    "shade": "200",
+    "code": "#fef08a"
+  },
+  {
+    "name": "Yellow",
+    "shade": "300",
+    "code": "#fde047"
+  },
+  {
+    "name": "Yellow",
+    "shade": "400",
+    "code": "#facc15"
+  },
+  {
+    "name": "Yellow",
+    "shade": "500",
+    "code": "#eab308"
+  },
+  {
+    "name": "Yellow",
+    "shade": "600",
+    "code": "#ca8a04"
+  },
+  {
+    "name": "Yellow",
+    "shade": "700",
+    "code": "#a16207"
+  },
+  {
+    "name": "Yellow",
+    "shade": "800",
+    "code": "#854d0e"
+  },
+  {
+    "name": "Yellow",
+    "shade": "900",
+    "code": "#713f12"
+  },
+  {
+    "name": "Yellow",
+    "shade": "950",
+    "code": "#422006"
+  },
+  {
+    "name": "Lime",
+    "shade": "50",
+    "code": "#f7fee7"
+  },
+  {
+    "name": "Lime",
+    "shade": "100",
+    "code": "#ecfccb"
+  },
+  {
+    "name": "Lime",
+    "shade": "200",
+    "code": "#d9f99d"
+  },
+  {
+    "name": "Lime",
+    "shade": "300",
+    "code": "#bef264"
+  },
+  {
+    "name": "Lime",
+    "shade": "400",
+    "code": "#a3e635"
+  },
+  {
+    "name": "Lime",
+    "shade": "500",
+    "code": "#84cc16"
+  },
+  {
+    "name": "Lime",
+    "shade": "600",
+    "code": "#65a30d"
+  },
+  {
+    "name": "Lime",
+    "shade": "700",
+    "code": "#4d7c0f"
+  },
+  {
+    "name": "Lime",
+    "shade": "800",
+    "code": "#3f6212"
+  },
+  {
+    "name": "Lime",
+    "shade": "900",
+    "code": "#365314"
+  },
+  {
+    "name": "Lime",
+    "shade": "950",
+    "code": "#1a2e05"
+  },
+  {
+    "name": "Green",
+    "shade": "50",
+    "code": "#f0fdf4"
+  },
+  {
+    "name": "Green",
+    "shade": "100",
+    "code": "#dcfce7"
+  },
+  {
+    "name": "Green",
+    "shade": "200",
+    "code": "#bbf7d0"
+  },
+  {
+    "name": "Green",
+    "shade": "300",
+    "code": "#86efac"
+  },
+  {
+    "name": "Green",
+    "shade": "400",
+    "code": "#4ade80"
+  },
+  {
+    "name": "Green",
+    "shade": "500",
+    "code": "#22c55e"
+  },
+  {
+    "name": "Green",
+    "shade": "600",
+    "code": "#16a34a"
+  },
+  {
+    "name": "Green",
+    "shade": "700",
+    "code": "#15803d"
+  },
+  {
+    "name": "Green",
+    "shade": "800",
+    "code": "#166534"
+  },
+  {
+    "name": "Green",
+    "shade": "900",
+    "code": "#14532d"
+  },
+  {
+    "name": "Green",
+    "shade": "950",
+    "code": "#052e16"
+  },
+  {
+    "name": "Emerald",
+    "shade": "50",
+    "code": "#ecfdf5"
+  },
+  {
+    "name": "Emerald",
+    "shade": "100",
+    "code": "#d1fae5"
+  },
+  {
+    "name": "Emerald",
+    "shade": "200",
+    "code": "#a7f3d0"
+  },
+  {
+    "name": "Emerald",
+    "shade": "300",
+    "code": "#6ee7b7"
+  },
+  {
+    "name": "Emerald",
+    "shade": "400",
+    "code": "#34d399"
+  },
+  {
+    "name": "Emerald",
+    "shade": "500",
+    "code": "#10b981"
+  },
+  {
+    "name": "Emerald",
+    "shade": "600",
+    "code": "#059669"
+  },
+  {
+    "name": "Emerald",
+    "shade": "700",
+    "code": "#047857"
+  },
+  {
+    "name": "Emerald",
+    "shade": "800",
+    "code": "#065f46"
+  },
+  {
+    "name": "Emerald",
+    "shade": "900",
+    "code": "#064e3b"
+  },
+  {
+    "name": "Emerald",
+    "shade": "950",
+    "code": "#022c22"
+  },
+  {
+    "name": "Teal",
+    "shade": "50",
+    "code": "#f0fdfa"
+  },
+  {
+    "name": "Teal",
+    "shade": "100",
+    "code": "#ccfbf1"
+  },
+  {
+    "name": "Teal",
+    "shade": "200",
+    "code": "#99f6e4"
+  },
+  {
+    "name": "Teal",
+    "shade": "300",
+    "code": "#5eead4"
+  },
+  {
+    "name": "Teal",
+    "shade": "400",
+    "code": "#2dd4bf"
+  },
+  {
+    "name": "Teal",
+    "shade": "500",
+    "code": "#14b8a6"
+  },
+  {
+    "name": "Teal",
+    "shade": "600",
+    "code": "#0d9488"
+  },
+  {
+    "name": "Teal",
+    "shade": "700",
+    "code": "#0f766e"
+  },
+  {
+    "name": "Teal",
+    "shade": "800",
+    "code": "#115e59"
+  },
+  {
+    "name": "Teal",
+    "shade": "900",
+    "code": "#134e4a"
+  },
+  {
+    "name": "Teal",
+    "shade": "950",
+    "code": "#042f2e"
+  },
+  {
+    "name": "Cyan",
+    "shade": "50",
+    "code": "#ecfeff"
+  },
+  {
+    "name": "Cyan",
+    "shade": "100",
+    "code": "#cffafe"
+  },
+  {
+    "name": "Cyan",
+    "shade": "200",
+    "code": "#a5f3fc"
+  },
+  {
+    "name": "Cyan",
+    "shade": "300",
+    "code": "#67e8f9"
+  },
+  {
+    "name": "Cyan",
+    "shade": "400",
+    "code": "#22d3ee"
+  },
+  {
+    "name": "Cyan",
+    "shade": "500",
+    "code": "#06b6d4"
+  },
+  {
+    "name": "Cyan",
+    "shade": "600",
+    "code": "#0891b2"
+  },
+  {
+    "name": "Cyan",
+    "shade": "700",
+    "code": "#0e7490"
+  },
+  {
+    "name": "Cyan",
+    "shade": "800",
+    "code": "#155e75"
+  },
+  {
+    "name": "Cyan",
+    "shade": "900",
+    "code": "#164e63"
+  },
+  {
+    "name": "Cyan",
+    "shade": "950",
+    "code": "#083344"
+  },
+  {
+    "name": "Sky",
+    "shade": "50",
+    "code": "#f0f9ff"
+  },
+  {
+    "name": "Sky",
+    "shade": "100",
+    "code": "#e0f2fe"
+  },
+  {
+    "name": "Sky",
+    "shade": "200",
+    "code": "#bae6fd"
+  },
+  {
+    "name": "Sky",
+    "shade": "300",
+    "code": "#7dd3fc"
+  },
+  {
+    "name": "Sky",
+    "shade": "400",
+    "code": "#38bdf8"
+  },
+  {
+    "name": "Sky",
+    "shade": "500",
+    "code": "#0ea5e9"
+  },
+  {
+    "name": "Sky",
+    "shade": "600",
+    "code": "#0284c7"
+  },
+  {
+    "name": "Sky",
+    "shade": "700",
+    "code": "#0369a1"
+  },
+  {
+    "name": "Sky",
+    "shade": "800",
+    "code": "#075985"
+  },
+  {
+    "name": "Sky",
+    "shade": "900",
+    "code": "#0c4a6e"
+  },
+  {
+    "name": "Sky",
+    "shade": "950",
+    "code": "#082f49"
+  },
+  {
+    "name": "Blue",
+    "shade": "50",
+    "code": "#eff6ff"
+  },
+  {
+    "name": "Blue",
+    "shade": "100",
+    "code": "#dbeafe"
+  },
+  {
+    "name": "Blue",
+    "shade": "200",
+    "code": "#bfdbfe"
+  },
+  {
+    "name": "Blue",
+    "shade": "300",
+    "code": "#93c5fd"
+  },
+  {
+    "name": "Blue",
+    "shade": "400",
+    "code": "#60a5fa"
+  },
+  {
+    "name": "Blue",
+    "shade": "500",
+    "code": "#3b82f6"
+  },
+  {
+    "name": "Blue",
+    "shade": "600",
+    "code": "#2563eb"
+  },
+  {
+    "name": "Blue",
+    "shade": "700",
+    "code": "#1d4ed8"
+  },
+  {
+    "name": "Blue",
+    "shade": "800",
+    "code": "#1e40af"
+  },
+  {
+    "name": "Blue",
+    "shade": "900",
+    "code": "#1e3a8a"
+  },
+  {
+    "name": "Blue",
+    "shade": "950",
+    "code": "#172554"
+  },
+  {
+    "name": "Indigo",
+    "shade": "50",
+    "code": "#eef2ff"
+  },
+  {
+    "name": "Indigo",
+    "shade": "100",
+    "code": "#e0e7ff"
+  },
+  {
+    "name": "Indigo",
+    "shade": "200",
+    "code": "#c7d2fe"
+  },
+  {
+    "name": "Indigo",
+    "shade": "300",
+    "code": "#a5b4fc"
+  },
+  {
+    "name": "Indigo",
+    "shade": "400",
+    "code": "#818cf8"
+  },
+  {
+    "name": "Indigo",
+    "shade": "500",
+    "code": "#6366f1"
+  },
+  {
+    "name": "Indigo",
+    "shade": "600",
+    "code": "#4f46e5"
+  },
+  {
+    "name": "Indigo",
+    "shade": "700",
+    "code": "#4338ca"
+  },
+  {
+    "name": "Indigo",
+    "shade": "800",
+    "code": "#3730a3"
+  },
+  {
+    "name": "Indigo",
+    "shade": "900",
+    "code": "#312e81"
+  },
+  {
+    "name": "Indigo",
+    "shade": "950",
+    "code": "#1e1b4b"
+  },
+  {
+    "name": "Violet",
+    "shade": "50",
+    "code": "#f5f3ff"
+  },
+  {
+    "name": "Violet",
+    "shade": "100",
+    "code": "#ede9fe"
+  },
+  {
+    "name": "Violet",
+    "shade": "200",
+    "code": "#ddd6fe"
+  },
+  {
+    "name": "Violet",
+    "shade": "300",
+    "code": "#c4b5fd"
+  },
+  {
+    "name": "Violet",
+    "shade": "400",
+    "code": "#a78bfa"
+  },
+  {
+    "name": "Violet",
+    "shade": "500",
+    "code": "#8b5cf6"
+  },
+  {
+    "name": "Violet",
+    "shade": "600",
+    "code": "#7c3aed"
+  },
+  {
+    "name": "Violet",
+    "shade": "700",
+    "code": "#6d28d9"
+  },
+  {
+    "name": "Violet",
+    "shade": "800",
+    "code": "#5b21b6"
+  },
+  {
+    "name": "Violet",
+    "shade": "900",
+    "code": "#4c1d95"
+  },
+  {
+    "name": "Violet",
+    "shade": "950",
+    "code": "#2e1065"
+  },
+  {
+    "name": "Purple",
+    "shade": "50",
+    "code": "#faf5ff"
+  },
+  {
+    "name": "Purple",
+    "shade": "100",
+    "code": "#f3e8ff"
+  },
+  {
+    "name": "Purple",
+    "shade": "200",
+    "code": "#e9d5ff"
+  },
+  {
+    "name": "Purple",
+    "shade": "300",
+    "code": "#d8b4fe"
+  },
+  {
+    "name": "Purple",
+    "shade": "400",
+    "code": "#c084fc"
+  },
+  {
+    "name": "Purple",
+    "shade": "500",
+    "code": "#a855f7"
+  },
+  {
+    "name": "Purple",
+    "shade": "600",
+    "code": "#9333ea"
+  },
+  {
+    "name": "Purple",
+    "shade": "700",
+    "code": "#7e22ce"
+  },
+  {
+    "name": "Purple",
+    "shade": "800",
+    "code": "#6b21a8"
+  },
+  {
+    "name": "Purple",
+    "shade": "900",
+    "code": "#581c87"
+  },
+  {
+    "name": "Purple",
+    "shade": "950",
+    "code": "#3b0764"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "50",
+    "code": "#fdf4ff"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "100",
+    "code": "#fae8ff"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "200",
+    "code": "#f5d0fe"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "300",
+    "code": "#f0abfc"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "400",
+    "code": "#e879f9"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "500",
+    "code": "#d946ef"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "600",
+    "code": "#c026d3"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "700",
+    "code": "#a21caf"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "800",
+    "code": "#86198f"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "900",
+    "code": "#701a75"
+  },
+  {
+    "name": "Fuchsia",
+    "shade": "950",
+    "code": "#4a044e"
+  },
+  {
+    "name": "Pink",
+    "shade": "50",
+    "code": "#fdf2f8"
+  },
+  {
+    "name": "Pink",
+    "shade": "100",
+    "code": "#fce7f3"
+  },
+  {
+    "name": "Pink",
+    "shade": "200",
+    "code": "#fbcfe8"
+  },
+  {
+    "name": "Pink",
+    "shade": "300",
+    "code": "#f9a8d4"
+  },
+  {
+    "name": "Pink",
+    "shade": "400",
+    "code": "#f472b6"
+  },
+  {
+    "name": "Pink",
+    "shade": "500",
+    "code": "#ec4899"
+  },
+  {
+    "name": "Pink",
+    "shade": "600",
+    "code": "#db2777"
+  },
+  {
+    "name": "Pink",
+    "shade": "700",
+    "code": "#be185d"
+  },
+  {
+    "name": "Pink",
+    "shade": "800",
+    "code": "#9d174d"
+  },
+  {
+    "name": "Pink",
+    "shade": "900",
+    "code": "#831843"
+  },
+  {
+    "name": "Pink",
+    "shade": "950",
+    "code": "#500724"
+  },
+  {
+    "name": "Rose",
+    "shade": "50",
+    "code": "#fff1f2"
+  },
+  {
+    "name": "Rose",
+    "shade": "100",
+    "code": "#ffe4e6"
+  },
+  {
+    "name": "Rose",
+    "shade": "200",
+    "code": "#fecdd3"
+  },
+  {
+    "name": "Rose",
+    "shade": "300",
+    "code": "#fda4af"
+  },
+  {
+    "name": "Rose",
+    "shade": "400",
+    "code": "#fb7185"
+  },
+  {
+    "name": "Rose",
+    "shade": "500",
+    "code": "#f43f5e"
+  },
+  {
+    "name": "Rose",
+    "shade": "600",
+    "code": "#e11d48"
+  },
+  {
+    "name": "Rose",
+    "shade": "700",
+    "code": "#be123c"
+  },
+  {
+    "name": "Rose",
+    "shade": "800",
+    "code": "#9f1239"
+  },
+  {
+    "name": "Rose",
+    "shade": "900",
+    "code": "#881337"
+  },
+  {
+    "name": "Rose",
+    "shade": "950",
+    "code": "#4c0519"
+  }
+]

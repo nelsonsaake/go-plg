@@ -1,0 +1,28 @@
+{{define "main" -}}
+
+import 'package:commons/ui/selectable_text_utils.dart';
+import 'package:flutter/material.dart';
+
+extension SelectableTextLineHeightExt on SelectableText {
+  ///...
+
+  TextStyle get style {
+    return this.style ?? const TextStyle();
+  }
+
+  /// set lineHeight to lh
+  SelectableText lh(double? lh) {
+    return copyWith(
+      style: style.copyWith(height: lh),
+    );
+  }
+
+  {{range  . -}}
+
+  /// set lineHeight to {{.LineHeightRatio}}
+  SelectableText lh{{ .Name }}() => lh({{.LineHeightRatio}});
+
+  {{ end -}} 
+
+}
+{{end}}

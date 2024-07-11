@@ -20,7 +20,7 @@ extension SelectableTextLetterSpacingExt on SelectableText {
   {{range  . -}}
 
   /// set letterSpacing to {{.Value}}
-  SelectableText ls{{ .Name }}() => ls({{.Value}});
+  SelectableText ls{{ .Name | Capitalize }}() => ls({{.Value}});
 
   {{ end -}} 
 

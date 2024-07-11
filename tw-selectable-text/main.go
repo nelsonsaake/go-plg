@@ -59,8 +59,8 @@ func main() {
 			},
 			{
 				Tmpl:     "selectable_text_font_family.dart.tmpl",
-				DataFile: "google_font_family.json",
-				Data:     &[]string{},
+				DataFile: "font_family.json",
+				Data:     &[]models.FontFamily{},
 			},
 			{
 				Tmpl:     "selectable_text_font_size.dart.tmpl",
@@ -102,6 +102,11 @@ func main() {
 			panic(fmt.Errorf("error unmarshalling bytes from %s to %t: %v", datafile, config.Data, err))
 		}
 
-		renderTemplateAndWriteToDir(tmpl, config.Data, outputDir)
+		err = renderTemplateAndWriteToDir(tmpl, config.Data, outputDir)
+		if err != nil {
+			panic(fmt.Errorf("error rendering: %v", err))
+		}
+
+		// pretty.Print(config)
 	}
 }

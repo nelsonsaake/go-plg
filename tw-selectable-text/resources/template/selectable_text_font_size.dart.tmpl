@@ -20,7 +20,7 @@ extension SelectableTextFontSizeExt on SelectableText {
   {{range  . -}}
 
   /// set font size to {{.FontSize}}px, and lineHeight to {{.LineHeightRatio}}
-  SelectableText fs{{ .Name }}() => fs({{.FontSize}}, lh: {{.LineHeightRatio}});
+  SelectableText fs{{ .Name | Capitalize }}() => fs({{.FontSize}}, lh: {{.LineHeightRatio}});
 
   {{ end -}} 
 

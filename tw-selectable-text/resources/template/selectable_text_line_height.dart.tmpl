@@ -20,7 +20,7 @@ extension SelectableTextLineHeightExt on SelectableText {
   {{range  . -}}
 
   /// set lineHeight to {{.LineHeightRatio}}
-  SelectableText lh{{ .Name }}() => lh({{.LineHeightRatio}});
+  SelectableText lh{{ .Name | Capitalize }}() => lh({{.LineHeightRatio}});
 
   {{ end -}} 
 

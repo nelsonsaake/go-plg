@@ -1,10 +1,11 @@
 .PHONY: ncommit run get dep run-dep
 
 VERSION = v0.0.58
+
 ncommit:
 	cls
 	git add .
-	git commit -m "ncommit"
+	git commit -m "patch: tw-selectable-text"
 	git push origin main 
 
 run:	

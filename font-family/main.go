@@ -2,6 +2,7 @@ package main
 
 import (
 	_ "embed"
+	"encoding/json"
 	"go-plg/render"
 	"strings"
 
@@ -14,6 +15,9 @@ import (
 var (
 	templateDir = "resources/template"
 	outputDir   = "output"
+
+	//go:embed resources/data/fontfamilies.json
+	rawString string
 )
 
 func main() {
@@ -23,15 +27,15 @@ func main() {
 		Value string
 	}
 
-	data := []Data{}
+	var (
+		data  = []Data{}
+		fonts = []string{}
+	)
 
-	ff, err := getGoogleFonts()
+	err := json.Unmarshal([]byte(rawString), &fonts)
 	do.Die(err)
 
-	err = ufs.WriteFile("resources/data/fontfamilies.json", pretty.JSON(ff))
-	do.Die(err)
-
-	for _, v := range ff {
+	for _, v := range fonts {
 
 		// value
 		value := v
@@ -44,4 +48,6 @@ func main() {
 	}
 
 	render.TemplatesInDir(templateDir, outputDir, data)
+
+	ufs.WriteFile("ff.json", pretty.JSON(data))
 }

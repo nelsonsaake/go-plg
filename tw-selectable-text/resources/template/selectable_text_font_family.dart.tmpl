@@ -27,7 +27,7 @@ extension TextFontFamilyExt on SelectableText {
   {{range  . -}}
 
   /// set fontFamily to {{.Value}}
-  SelectableText ff{{ .Name }}() => gff("{{.Value}}");
+  SelectableText ff{{ .Name | Capitalize }}() => gff("{{.Value}}");
 
   {{ end -}} 
 

@@ -28,7 +28,7 @@ extension SelectableTextColorExt on SelectableText {
   {{range  . -}}
 
   /// set font color to {{.Code}}
-  SelectableText fc{{ .Name -}}{{- .Shade }}() => color(const Color({{ ReplaceAll .Code "#" "0xFF" | ToUpper}}));
+  SelectableText fc{{ .Name | Capitalize -}}{{- .Shade }}() => color(const Color({{ ReplaceAll .Code "#" "0xFF" | ToUpper}}));
     
   {{ end }}
 }

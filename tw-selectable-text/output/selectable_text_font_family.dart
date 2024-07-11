@@ -1,8 +1,7 @@
 import 'package:commons/ui/selectable_text_utils.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
-extension TextFontFamilyExt on SelectableText {
+extension SelectableTextFontFamilyExt on SelectableText {
   ///...
 
   TextStyle get style {

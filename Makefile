@@ -1,16 +1,16 @@
 .PHONY: ncommit run get dep run-dep
 
-VERSION = v0.0.58
+VERSION = v0.0.75
 
 ncommit:
 	cls
 	git add .
-	git commit -m "patch: tw-selectable-text"
+	git commit -m "wip: ws-files"
 	git push origin main 
 
 run:	
 	cls
-	cd tw-selectable-text && go run .
+	cd ws-files && go run .
 
 dep:
 	cls

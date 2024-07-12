@@ -1,35 +1,44 @@
 package main
 
 import (
+	"fmt"
+	"go-plg/ws-files/wsc"
+	"strings"
+
 	"github.com/nelsonsaake/go/axios"
 	"github.com/nelsonsaake/go/do"
 	"github.com/nelsonsaake/go/pretty"
 )
 
-var (
-	baseUrl = "http://localhost:3004/api"
-	client  = &axios.Client{BaseUrl: baseUrl}
-)
+func die(_ *axios.Response, err error) {
+	do.Die(err)
+}
 
-func login() {
+func verbose(res *axios.Response, err error) {
 
-	url := "auth/admin/login"
+	do.Die(err)
+	fmt.Printf("[%s] %s\n", strings.ToLower(res.Request().Method), res.Request().URL)
 
-	redBody := map[string]any{
-		"email":    "admin@example.com",
-		"password": "password",
-	}
-
-	res, err := client.Post(url, redBody)
+	obj, err := res.ObjMap()
 	do.Die(err)
 
-	payload, err := res.Json()
-	do.Die(err)
-
-	pretty.Print(payload)
+	fmt.Println(pretty.JSON(obj))
+	fmt.Println("")
 }
 
 func main() {
 
-	login()
+	var (
+		res *axios.Response
+		err error
+	)
+
+	// res, err = wsc.Login()
+	// die(res, err)
+
+	res, err = wsc.CreateFile()
+	verbose(res, err)
+
+	res, err = wsc.GetOneDir()
+	verbose(res, err)
 }

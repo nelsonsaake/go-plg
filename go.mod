@@ -2,7 +2,9 @@ module go-plg
 
 go 1.22.3
 
-require github.com/nelsonsaake/go v0.0.58
+require github.com/nelsonsaake/go v0.0.75
+
+require github.com/brianvoe/gofakeit/v6 v6.28.0 // indirect
 
 require (
 	github.com/bytedance/sonic v1.11.6 // indirect

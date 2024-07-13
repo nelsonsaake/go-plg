@@ -5,12 +5,12 @@ VERSION = v0.0.75
 ncommit:
 	cls
 	git add .
-	git commit -m "wip: ws-files"
+	git commit -m "wip: cyrus"
 	git push origin main 
 
 run:	
 	cls
-	cd ws-files && go run .
+	cd cyrus && go run .
 
 dep:
 	cls

@@ -33,12 +33,16 @@ func main() {
 		err error
 	)
 
-	// res, err = wsc.Login()
-	// die(res, err)
+	res, err = wsc.Login()
+	die(res, err)
 
-	res, err = wsc.CreateFile()
-	verbose(res, err)
+	// res, err = wsc.CreateFile()
+	// verbose(res, err)
+	obj, err := res.ObjMap()
+	do.Die(err)
 
-	res, err = wsc.GetOneDir()
+	pretty.Print(obj.Get("data"))
+
+	res, err = wsc.GetDirs()
 	verbose(res, err)
 }

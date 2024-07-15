@@ -1,16 +1,16 @@
 .PHONY: ncommit run get dep run-dep
 
-VERSION = v0.0.75
+VERSION = v0.0.80
 
 ncommit:
 	cls
 	git add .
-	git commit -m "wip: cyrus"
+	git commit -m "wip: ws-files"
 	git push origin main 
 
 run:	
 	cls
-	cd cyrus && go run .
+	cd ws-files && go run .
 
 dep:
 	cls

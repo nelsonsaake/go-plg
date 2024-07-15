@@ -5,34 +5,23 @@ import (
 
 	"github.com/nelsonsaake/go/axios"
 	"github.com/nelsonsaake/go/do"
-	"github.com/nelsonsaake/go/obj"
 	"github.com/nelsonsaake/go/ufs"
 )
 
-func GetFiles() (obj.Map, error) {
+func GetFiles() (*axios.Response, error) {
 
 	url := "files"
 	client := newClient()
 
-	res, err := client.Get(url)
-	if err != nil {
-		return nil, err
-	}
-
-	return res.ObjMap()
+	return client.Get(url)
 }
 
-func DelFiles() (obj.Map, error) {
+func DelFiles() (*axios.Response, error) {
 
 	url := "files/4"
 	client := newClient()
 
-	res, err := client.Delete(url)
-	if err != nil {
-		return nil, err
-	}
-
-	return res.ObjMap()
+	return client.Delete(url)
 }
 
 func CreateFile() (*axios.Response, error) {
@@ -48,7 +37,7 @@ func CreateFile() (*axios.Response, error) {
 		return nil, err
 	}
 
-	req := obj.Map{
+	req := map[string]any{
 		"name":          filepath.Base(filename),
 		"content":       do.RawToB64(raw),
 		"parent_dir_id": 3,
@@ -57,7 +46,7 @@ func CreateFile() (*axios.Response, error) {
 	return client.Post(url, req)
 }
 
-func UpdateFile() (obj.Map, error) {
+func UpdateFile() (*axios.Response, error) {
 
 	var (
 		url      = "files/5"
@@ -70,15 +59,10 @@ func UpdateFile() (obj.Map, error) {
 		return nil, err
 	}
 
-	req := obj.Map{
+	req := map[string]any{
 		"content":  do.RawToB64(raw),
 		"filename": filepath.Base(filename),
 	}
 
-	res, err := client.Patch(url, req)
-	if err != nil {
-		return nil, err
-	}
-
-	return res.ObjMap()
+	return client.Patch(url, req)
 }

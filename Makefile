@@ -1,6 +1,6 @@
 .PHONY: ncommit run get dep run-dep
 
-VERSION = v0.0.80
+VERSION = v0.0.84
 
 ncommit:
 	cls

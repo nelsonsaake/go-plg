@@ -7,7 +7,6 @@ import (
 
 	"github.com/nelsonsaake/go/axios"
 	"github.com/nelsonsaake/go/do"
-	"github.com/nelsonsaake/go/pretty"
 )
 
 func die(_ *axios.Response, err error) {
@@ -16,14 +15,21 @@ func die(_ *axios.Response, err error) {
 
 func verbose(res *axios.Response, err error) {
 
+	// first handle error
 	do.Die(err)
+
+	// print som info about the request
 	fmt.Printf("[%s] %s\n", strings.ToLower(res.Request().Method), res.Request().URL)
 
+	// check if request was successful, i.e interpret status code
+	fmt.Printf("status: %s\n", res.Response().Status)
+
+	// extract information about the response
 	obj, err := res.ObjMap()
 	do.Die(err)
 
-	fmt.Println(pretty.JSON(obj))
-	fmt.Println("")
+	// print response
+	fmt.Println(obj)
 }
 
 func main() {
@@ -36,13 +42,30 @@ func main() {
 	res, err = wsc.Login()
 	die(res, err)
 
-	// res, err = wsc.CreateFile()
-	// verbose(res, err)
-	obj, err := res.ObjMap()
-	do.Die(err)
+	/*
+		examples:
 
-	pretty.Print(obj.Get("data"))
+		// res, err = wsc.CreateFile()
+		// verbose(res, err)
 
-	res, err = wsc.GetDirs()
+		// obj, err := res.ObjMap()
+		// do.Die(err)
+
+		// pretty.Print(obj.Get("data"))
+	*/
+
+	res, err = wsc.GetReviews()
+	die(res, err)
+
+	res, err = wsc.GetReview()
+	die(res, err)
+
+	res, err = wsc.CreateReview()
+	die(res, err)
+
+	res, err = wsc.UpdateReview()
 	verbose(res, err)
+
+	res, err = wsc.Delete()
+	die(res, err)
 }
